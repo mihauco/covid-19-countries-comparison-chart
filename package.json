@@ -1,0 +1,36 @@
+{
+  "name": "covid-19-countries-comparison-chart",
+  "version": "1.0.0",
+  "description": "Simple application to compare progress of COVID-19 in selected countries, day by day, on chart. Data is taken from www.worldometers.info",
+  "main": "app.js",
+  "scripts": {
+    "start": "npm run build-frontend && node app.js",
+    "build-frontend": "cd client && webpack --env.production",
+    "start-frontend": "cd client && webpack --watch"
+  },
+  "author": "Michal Koczkodon <michal.koczkodon@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "buefy": "^0.8.13",
+    "chart.js": "^2.9.3",
+    "express": "^4.17.1",
+    "jsdom": "^16.2.1",
+    "vue": "^2.6.11",
+    "vue-chartjs": "^3.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.6",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.2",
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "vue-loader": "^15.9.0",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
