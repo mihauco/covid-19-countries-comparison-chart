@@ -2,7 +2,7 @@
 
 Simple application to compare progress of COVID-19 in selected countries, day by day, on chart. Data is taken from [www.worldometers.info](https://www.worldometers.info/coronavirus/).
 
-![App preview](.readme/preview.png)
+![App preview](.readme/app_preview.png)
 
 ## Run app locally
 
