@@ -13,7 +13,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "buefy": "^0.8.13",
-    "chart.js": "^2.9.3",
+    "chart.js": "^2.9.4",
     "express": "^4.17.1",
     "jsdom": "^16.2.1",
     "vue": "^2.6.11",
